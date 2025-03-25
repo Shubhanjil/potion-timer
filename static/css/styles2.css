@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap');
+
+
+.draggable {
+    -webkit-app-region: drag;  /* ✅ Enables dragging */
+    width: 100%; 
+    height: 30px;  /* ✅ Adjust height for better dragging */
+    position: absolute;
+    top: 0;
+    left: 0;/* Optional: Adds a semi-transparent area */
+}
+
+.frame-2,
+.frame-2 * {
+    box-sizing: content-box;
+}
+.frame-2 {
+    background: #bb9bb0;
+    border-style: solid;
+    border-color: #1c1d21;
+    border-radius: 15px;
+    border-width: 5px;
+    height: 300px;
+    width: 260px;
+    position: fixed;
+    overflow: hidden;
+}
+
+.cloud-bg {
+    opacity: 0.5;
+    border-style: solid;
+    border-color: #1c1d21;
+    border-width: 4px;
+    width: 224px;
+    height: 224px;
+    position: fixed;
+    left: 26px;
+    top: 72px;
+    object-fit: cover;
+}
+
+.what-are-you-brewing-today {
+    color: #1c1d21;
+    text-align: center;
+    font-family: "Pixelify Sans", serif;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    left: 5px;
+    top: 70px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.potion-timer {
+    color: #1c1d21;
+    text-align: left;
+    font-family: "Pixelify Sans", serif;
+    font-size: 28px;
+    font-weight: 500;
+    position: absolute;
+    left: 1px;
+    top: 22px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div {
+    color: #1c1d21;
+    text-align: right;
+    font-family: "Pixelify Sans", serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    left: 186px;
+    top: 5px;
+    width: 16px;
+    height: 22px;
+    background: #ccbcbc;
+    border-style: solid;
+    border-color: #1c1d21;
+    border-width: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    transition: transform 0.15s ease-in-out;
+}
+
+.x {
+    color: #1c1d21;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "Pixelify Sans", serif;
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    left: 222px;
+    top: 5px;
+    width: 16px;
+    height: 22px;
+    background: #ccbcbc;
+    border-style: solid;
+    border-color: #1c1d21;
+    border-width: 3px;
+    display: flex;
+    line-height: 1;
+    cursor:pointer;
+    transition: transform 0.15s ease-in-out;
+}
+
+.snake-weed {
+    color: #1c1d21;
+    text-align: center;
+    font-family: "Pixelify Sans", serif;
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    left: 36px;
+    top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.poison-ivy {
+    color: #1c1d21;
+    text-align: center;
+    font-family: "Pixelify Sans", serif;
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    left: 150px;
+    top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.youth-elixir {
+    color: #1c1d21;
+    text-align: center;
+    font-family: "Pixelify Sans", serif;
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    left: 150px;
+    top: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.night-shade {
+    color: #1c1d21;
+    text-align: center;
+    font-family: "Pixelify Sans", serif;
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    left: 36px;
+    top: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SW{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 40px;
+    top: 90px;
+    object-fit: cover;
+    cursor:pointer;
+    transition: transform 0.15s ease-in-out;
+}
+.YE{
+    border-radius: 25px;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 150px;
+    top: 185px;
+    object-fit: cover;
+    cursor:pointer;
+    transition: transform 0.15s ease-in-out;
+}
+.NS{
+    border-radius: 25px;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 40px;
+    top: 185px;
+    object-fit: cover;
+    cursor:pointer;
+    transition: transform 0.15s ease-in-out;
+}
+.PI {
+    border-radius: 0px;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 150px;
+    top: 90px;
+    overflow: visible;
+    object-fit: cover;
+    cursor:pointer;
+    transition: transform 0.15s ease-in-out;
+}
+
+
+.YE:hover {
+    transform: scale(1.05);
+}
+.PI:hover {
+    transform: scale(1.05);
+}
+.NS:hover {
+    transform: scale(1.05);
+}
+.SW:hover {
+    transform: scale(1.05);
+}
+.div:hover {
+    transform: scale(1.05);
+}
+.x:hover {
+    transform: scale(1.05);
+}

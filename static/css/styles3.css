@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap');
+
+.draggable {
+    -webkit-app-region: drag;  /* ✅ Enables dragging */
+    width: 100%; 
+    height: 30px;  /* ✅ Adjust height for better dragging */
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2); /* Optional: Adds a semi-transparent area */
+}
+
+.frame-5,
+.frame-5 * {
+    box-sizing: content-box;
+}
+.frame-5 {
+    background: #bb9bb0;
+    border-style: solid;
+    border-color: #1c1d21;
+    border-radius: 15px;
+    border-width: 5px;
+    height: 300px;
+    width: 260px;
+    position: fixed;
+    overflow: hidden;
+}
+
+.cloud-bg{
+    opacity: 0.5;
+    border-style: solid;
+    border-color: #1c1d21;
+    border-width: 4px;
+    width: 224px;
+    height: 224px;
+    position: fixed;
+    left: 26px;
+    top: 72px;
+    object-fit: cover;
+}
+.your-potion-will-be-ready-in {
+    color: #1c1d21;
+    text-align: center;
+    font-family: "Pixelify Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: fixed;
+    left: 21px;
+    top: 90px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.potion-timer {
+    color: #1c1d21;
+    text-align: left;
+    font-family: "Pixelify Sans", serif;
+    font-size: 28px;
+    font-weight: 500;
+    position: fixed;
+    left: 14px;
+    top: 35px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div {
+    color: #1c1d21;
+    text-align: right;
+    font-family: "Pixelify Sans", serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    left: 186px;
+    top: 5px;
+    width: 16px;
+    height: 22px;
+    background: #ccbcbc;
+    border-style: solid;
+    border-color: #1c1d21;
+    border-width: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    transition: transform 0.15s ease-in-out;
+}
+
+.x {
+    color: #1c1d21;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "Pixelify Sans", serif;
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    left: 222px;
+    top: 5px;
+    width: 16px;
+    height: 22px;
+    background: #ccbcbc;
+    border-style: solid;
+    border-color: #1c1d21;
+    border-width: 3px;
+    display: flex;
+    line-height: 1;
+    cursor:pointer;
+    transition: transform 0.15s ease-in-out;
+}
+
+.cooked{
+    border-radius: 13px;
+    width: 130px;
+    height: 130px;
+    position: fixed;
+    left: 80px;
+    top: 120px;
+    object-fit: cover;
+}
+
+.animation{
+    border-radius: 13px;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 17px;
+    top: 23px;
+    object-fit: cover;
+}
+.onezero {
+    color: #000000;
+    text-align: center;
+    font-family: "Pixelify Sans", serif;
+    font-size: 32px;
+    font-weight: 400;
+    position: fixed;
+    left: 70px;
+    top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden{
+    display:none;
+}
+
+.div:hover {
+    transform: scale(1.05);
+}
+.x:hover {
+    transform: scale(1.05);
+}
+
+

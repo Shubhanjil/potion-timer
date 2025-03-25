@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap');
+
+.draggable {
+    -webkit-app-region: drag;  /* ✅ Enables dragging */
+    width: 100%; 
+    height: 30px;  /* ✅ Adjust height for better dragging */
+    position: absolute;
+    top: 0;
+    left: 0; /* Optional: Adds a semi-transparent area */
+}
+
+.frame-1,
+.frame-1 * {
+    box-sizing: content-box ;
+}
+.frame-1 {
+    background: #bb9bb0;
+    border-style: solid;
+    border-color: #1c1d21;
+    border-width: 5px;
+    border-radius: 15px;
+    height: 300px;
+    width: 260px;
+    position: fixed; /* relative */
+    overflow: hidden;
+}
+.cloud-bg {
+    border-style: solid;
+    border-color: #1c1d21;
+    border-width: 4px;
+    opacity: 0.5;
+    width: 224px;
+    height: 204px;
+    position: fixed;
+    left: 26px;
+    top: 90px;
+    object-fit: cover;
+}
+.lets-brew-your-potion {
+    color: #1c1d21;
+    text-align: center;
+    font-family: "Pixelify Sans", serif;
+    font-size: 28px;
+    font-weight: 400;
+    position: absolute;
+    left: 5px;
+    top: 120px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.potion-timer {
+    color: #1c1d21;
+    text-align: left;
+    font-family: "Pixelify Sans", serif;
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    left: 2px;
+    top: 36px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div {
+    color: #1c1d21;
+    text-align: right;
+    font-family: "Pixelify Sans", serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    left: 178px;
+    top: 5px;
+    width: 20px;
+    height: 26px;
+    background: #ccbcbc;
+    border-style: solid;
+    border-color: #1c1d21;
+    border-width: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    transition: transform 0.15s ease-in-out;
+}
+
+.x {
+    color: #1c1d21;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "Pixelify Sans", serif;
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    left: 218px;
+    top: 5px;
+    width: 20px;
+    height: 26px;
+    background: #ccbcbc;
+    border-style: solid;
+    border-color: #1c1d21;
+    border-width: 3px;
+    display: flex;
+    line-height: 1;
+    cursor:pointer;
+    transition: transform 0.15s ease-in-out;
+}
+
+.start {
+    color: #1c1d21;
+    text-align: center;
+    font-family: "Pixelify Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+    background: #ccbcbc;
+    border-style: solid;
+    border-color: #1c1d21;
+    border-width: 3px;
+    position: absolute;
+    left: 84px;
+    top: 200px;
+    width: 73px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    transition: transform 0.15s ease-in-out;
+}
+
+.start:hover {
+    transform: scale(1.05);
+}
+.div:hover {
+    transform: scale(1.05);
+}
+.x:hover {
+    transform: scale(1.05);
+}
